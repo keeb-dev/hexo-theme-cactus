@@ -1,5 +1,5 @@
 <section id="writing">
-  <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
+  <span class="h1"><a href="<%- url_for(theme.nav.articles) %>" class="main-page-header"><%= __('index.articles') %></a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
   <span class="h2"><%= __('index.topics') %></span>
   <span class="widget tagcloud">
